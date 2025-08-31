@@ -1,0 +1,80 @@
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(to bottom right, #f0f4f8, #e2e8f0); /* Degradado suave */
+            color: #334155; /* Color de texto principal */
+            line-height: 1.7; /* Mayor espaciado para mejor legibilidad */
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2.5rem; /* Mayor padding general */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+            border-radius: 1.5rem; /* Bordes más redondeados */
+        }
+        h1, h2, h3 {
+            font-weight: 700;
+            color: #1a202c; /* Color de encabezado más oscuro y nítido */
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-size: 3rem; /* Tamaño de fuente más grande para el título */
+            text-align: center;
+            padding-bottom: 1.5rem;
+            border-bottom: 3px solid #60a5fa; /* Borde más distintivo */
+            letter-spacing: -0.025em; /* Ajuste de espaciado para el título */
+        }
+        h2 {
+            font-size: 2.25rem; /* Tamaño de fuente para secciones */
+            border-left: 6px solid #3b82f6; /* Borde azul más grueso para secciones */
+            padding-left: 1.25rem;
+            margin-top: 3rem; /* Mayor espacio entre secciones */
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+        }
+        h3 {
+            font-size: 1.75rem;
+            color: #475569;
+            margin-top: 2rem;
+            font-weight: 600;
+        }
+        p {
+            margin-bottom: 1.25rem; /* Mayor espaciado entre párrafos */
+            font-size: 1.05rem; /* Ligeramente más grande para mejor lectura */
+        }
+        .section-separator {
+            border-top: 1px dashed #cbd5e1; /* Separador con línea punteada */
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+        .image-placeholder {
+            background-color: #f0f4f8; /* Fondo más claro para placeholders */
+            color: #64748b;
+            text-align: center;
+            padding: 2rem;
+            border-radius: 0.75rem; /* Bordes más redondeados */
+            margin-bottom: 2rem;
+            font-style: italic;
+            border: 1px solid #d1d5db; /* Borde sutil */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 150px; /* Altura mínima para visibilidad */
+        }
+        .image-placeholder img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.5rem;
+            margin-top: 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para las imágenes de placeholder */
+        }
+        .link {
+            color: #2563eb; /* Azul más vibrante para enlaces */
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .link:hover {
+            color: #1d4ed8;
+            text-decoration: underline;
+        }
