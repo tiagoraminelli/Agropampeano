@@ -1,4 +1,5 @@
-# Agropampeano
+
+# Análisis del Agro Pampeano: Ayer y Hoy
 
 ## Descripción del Proyecto
 
@@ -33,7 +34,13 @@
 ## Estructura del Repositorio
 
 * `<span class="selected">README.md</span>`: Este archivo, que proporciona una visión general del proyecto.
+* `<span class="selected">presentacion_agro_pampeano.md</span>`: Un archivo Markdown con los puntos clave organizados en un formato de diapositivas.
+* `<span class="selected">presentacion_agro_pampeano_completa.md</span>`: Una versión más detallada del archivo anterior, con información expandida para una presentación más completa.
 
 ## Contribuciones
 
 **Si tienes información adicional sobre el tema o quieres ampliar este análisis, siéntete libre de abrir un ***issue* o enviar un  *pull request* **.**
+
+### Licencia y Uso
+
+**Este material es de carácter ****educativo** y de  **libre acceso** **. Siéntete libre de utilizarlo, modificarlo y compartirlo para fines de estudio e investigación, citando la fuente original del libro ** *Patrones en la Ruta* **.**
